@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo 'Hibernating in 5 seconds'
+xlock &
+sleep 5
+pm-hibernate
